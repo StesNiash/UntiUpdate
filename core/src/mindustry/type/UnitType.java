@@ -514,7 +514,7 @@ public class UnitType extends UnlockableContent implements Senseable{
     }
 
     public void updatePayload(Unit unit, @Nullable Unit unitHolder, @Nullable Building buildingHolder){
-
+        unit.update();
     }
 
     public void killed(Unit unit){}
